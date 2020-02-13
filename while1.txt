@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int n1 = 0, n2 = 0;
+
+	// get numbers from user
+	cout<<"Enter two numbers for interval: "<<endl;
+	cin >> n1 >> n2;
+	cout<<"You entered "<<n1<<" and "<<n2<<endl;
+	
+	int i = n1;
+
+	while (!(i == (n2 + 1))) {
+	cout<<i++;
+	}
+	
+	cout<<"Now in reverse: "<<endl;
+	while (!(i == 0)) {
+	cout<<i--;
+	}
+
+
+
+return 0;
+}
