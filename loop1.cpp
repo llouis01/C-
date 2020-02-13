@@ -1,4 +1,4 @@
-// playing with if and else statements in C++
+// playing with if and else statements in C++.
 
 #include <iostream>
 using namespace std;
