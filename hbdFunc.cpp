@@ -11,7 +11,7 @@ int main()
 	cout<<real_age;
 }
 
-int SingHBD(string usrnme, int age) // create fcn instructions with parameter
+int SingHBD(string usrnme, int age) // define the function
 {
 	
 	cout<<"Enter your name: \n";
