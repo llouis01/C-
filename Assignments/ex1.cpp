@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int n, k = 0;
+int n, k= 0;
 
 int fact(int x);
 
@@ -23,7 +23,7 @@ return 0;
 
 int fact(int x){
 
-	while (x > 0){
+	while (x > 1){
 		if (x == 1){
 			return 1;
 		} else
@@ -34,5 +34,5 @@ int fact(int x){
 
 int perm(int n, int k){
 
-	return fact(n)/fact(k);
+	return fact(n) / fact((n-k));
 }
