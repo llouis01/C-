@@ -1,14 +1,20 @@
 #include <iostream>
 using namespace std;
 
+
+int print(){
+
+	cout<<"**********";
+	}
+
 int rectangle(int row){
 
-	for (int r = 0; r < row; r++){
-		for (int c = 0; c <= 10 ; c++){
-			if (r==c || r<=c || r>=c) cout<<"*";
+	for (int r = 0; r < 10; r++){
+		for (int c = 0; c < row ; c++){
+			if (r<=c || r>=c) cout<<print();
 	}
 	cout<<endl;
-	}
+}
 }
 
 
@@ -23,4 +29,3 @@ cout<<rectangle(row)<<endl;
 
 return 0;
 }
-
