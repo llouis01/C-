@@ -1,46 +1,36 @@
+//Loubens Louis, Q2
+
 #include <iostream>
 using namespace std;
 
+int fact(x);
 
+int perm(int n, int k);
 
-void funA(int &a, int b){
-
-      a = a + a;
-
-      b = b + a;
-
-      cout << a << b << endl;
-
-}
-
-
-
-int funB(int a[], int c){
-
-      a[c - 1] = a[c - 1] - 1;
-
-      return a[c - 1];
-
-}
-
-// void funC(int x, int y, int z){
-//
-  //    z = x[y];
- // }
-
- 
+int n, k = 0;
 
 int main(){
 
+cout<<"Enter two numbers for permutation: \n";
+cin>>n,k;
+
+cout<<"Permutation yields: "<<perm(n, k);
+cout<<endl;
+
+return 0;
+}
+
+int fact(int x){
+
+	if (x == 1){
+		return 1;
+	else
+		return x*(x-1);
+	}
+}
 
 
-      int x[3] = {1,2,3};
+int perm(int n, int k){
 
-
-
-      int c = 111;
-
-
-
-      cout << x[ x[1] ]<< endl;
-  }
+	fact(n)/fact(n-k);
+}
