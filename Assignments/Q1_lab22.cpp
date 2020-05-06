@@ -2,19 +2,16 @@
 using namespace std;
 
 
-int print(){
-
-	cout<<"**********";
-	}
-
 int rectangle(int row){
 
+	cout<<"**********";
+	
 	for (int r = 0; r < 10; r++){
-		for (int c = 0; c < row ; c++){
-			if (r<=c || r>=c) cout<<print();
+		for (int c = 0; c < row; c++){
+			cout<<rectangle(row);
 	}
 	cout<<endl;
-}
+	}
 }
 
 
