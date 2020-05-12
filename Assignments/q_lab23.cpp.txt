@@ -1,0 +1,7 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+char str[];
+cout<<"Enter a word: ";
+cin>>str.getline
