@@ -4,10 +4,13 @@ using namespace std;
 
 int main(int argc, char *argv[]){
 
-string str1 = argv[1], str2 = argv[2];
+	if (argc > 2) cout<<"Only 2 arguments expected."<<exit 1;
 
-cout<<"\nThe result is \""<<str1+str2
-    <<"\"."<<endl;
+	for (int i = 1; i < 2; i++){
+		cout<<argc[i];
+	}
+
+	cout<<endl;
 
 return 0;
 }
